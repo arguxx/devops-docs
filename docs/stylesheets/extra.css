@@ -1,0 +1,128 @@
+/* Custom styles for the documentation site */
+
+:root {
+    --md-primary-fg-color: #2563eb;
+    --md-primary-fg-color--light: #3b82f6;
+    --md-primary-fg-color--dark: #1d4ed8;
+    --md-accent-fg-color: #0ea5e9;
+}
+
+/* Grid cards styling */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.grid.cards > * {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.grid.cards > *:hover {
+    border-color: var(--md-primary-fg-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Code block enhancements */
+.highlight .filename {
+    background-color: var(--md-code-bg-color);
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    color: var(--md-default-fg-color--light);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+/* Mermaid diagram styling */
+.mermaid {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+/* Table enhancements */
+table {
+    font-size: 0.9rem;
+}
+
+table th {
+    background-color: var(--md-primary-fg-color--light);
+    color: white;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--md-default-bg-color);
+}
+
+/* Admonition customizations */
+.md-typeset .admonition.tip {
+    border-color: #00c853;
+}
+
+.md-typeset .admonition.warning {
+    border-color: #ff9800;
+}
+
+.md-typeset .admonition.bug {
+    border-color: #f44336;
+}
+
+/* Button styling */
+.md-button {
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.md-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation breadcrumbs */
+.md-nav__title {
+    font-weight: 600;
+}
+
+/* Footer customizations */
+.md-footer {
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Search highlighting */
+.md-search-result__teaser mark {
+    background-color: var(--md-accent-fg-color);
+    color: white;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .md-typeset table {
+        font-size: 0.8rem;
+    }
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] {
+    --md-hue: 220;
+}
+
+/* Code copy button styling */
+.md-clipboard {
+    color: var(--md-default-fg-color--light);
+}
+
+.md-clipboard:hover {
+    color: var(--md-primary-fg-color);
+}
