@@ -64,7 +64,8 @@ Apply security best practices throughout your DevOps lifecycle.
 
 ## 🤝 Contributing
 
-We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for details on:
+<!-- We welcome contributions! See our [Contributing Guide](../CONTRIBUTING.md) for details on: -->
+We welcome contributions! See our Contributing Guide for details on:
 
 -   Adding new documentation
 -   Editing existing content
