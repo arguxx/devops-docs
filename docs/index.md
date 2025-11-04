@@ -6,37 +6,37 @@ Welcome to our comprehensive DevOps documentation! This site contains everything
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch:{ .lg .middle } **Getting Started**
+-   🚀 **Getting Started**
 
     ***
 
     New to our DevOps practices? Start here for quick setup guides and essential concepts.
 
-    [:octicons-arrow-right-24: Quick Start](getting-started/quick-start.md)
+    [➡️ Quick Start](getting-started/quick-start.md)
 
--   :material-cog:{ .lg .middle } **Tools & Technologies**
+-   ⚙️ **Tools & Technologies**
 
     ***
 
     Detailed guides for Docker, Kubernetes, Terraform, and other essential DevOps tools.
 
-    [:octicons-arrow-right-24: Explore Tools](tools/docker.md)
+    [➡️ Explore Tools](tools/docker.md)
 
--   :material-pipe:{ .lg .middle } **CI/CD Pipelines**
+-   🔄 **CI/CD Pipelines**
 
     ***
 
     Learn how to build, test, and deploy applications using our automated pipelines.
 
-    [:octicons-arrow-right-24: Pipeline Guides](guides/cicd.md)
+    [➡️ Pipeline Guides](guides/cicd.md)
 
--   :material-chart-line:{ .lg .middle } **Monitoring & Observability**
+-   📊 **Monitoring & Observability**
 
     ***
 
     Set up monitoring, alerting, and observability for your applications and infrastructure.
 
-    [:octicons-arrow-right-24: Monitoring Guide](guides/monitoring.md)
+    [➡️ Monitoring Guide](guides/monitoring.md)
 
 </div>
 
@@ -65,6 +65,7 @@ Apply security best practices throughout your DevOps lifecycle.
 ## 🤝 Contributing
 
 <!-- We welcome contributions! See our [Contributing Guide](../CONTRIBUTING.md) for details on: -->
+
 We welcome contributions! See our Contributing Guide for details on:
 
 -   Adding new documentation

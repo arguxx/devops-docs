@@ -1,11 +1,11 @@
 site_name: DevOps Documentation Hub
-site_description: Comprehensive documentation for DevOps practices, tools, and workflows
+site_description: Comprehensive documentation for DevOps practices, tools, and workflows. Learn Docker, Kubernetes, CI/CD, Infrastructure as Code, and more.
 site_author: DevOps Team
-site_url: https://your-username.github.io/your-repo-name
+site_url: https://arguxx.github.io/devops-docs
 
 # Repository
-repo_name: your-username/your-repo-name
-repo_url: https://github.com/your-username/your-repo-name
+repo_name: arguxx/devops-docs
+repo_url: https://github.com/arguxx/devops-docs
 edit_uri: edit/main/docs/
 
 # Navigation
@@ -25,6 +25,7 @@ nav:
 theme:
     name: material
     language: en
+    custom_dir: docs/overrides
     palette:
         - scheme: default
           primary: blue
@@ -80,13 +81,12 @@ markdown_extensions:
     - md_in_html
     - tables
     - footnotes
-    - pymdownx.emoji
+    - pymdownx.emoji # Extra
 
-# Extra
 extra:
     social:
         - icon: fontawesome/brands/github
-          link: https://github.com/your-username
+          link: https://github.com/arguxx
         - icon: fontawesome/brands/docker
           link: https://hub.docker.com/u/your-username
     analytics:
