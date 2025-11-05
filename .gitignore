@@ -67,3 +67,5 @@ logs/
 # Backup files
 *.bak
 *.backup
+
+DEPLOYMENT.md

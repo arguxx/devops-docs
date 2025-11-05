@@ -8,7 +8,7 @@ Thank you for your interest in contributing to our DevOps documentation! This gu
 
 ```bash
 # Fork and clone the repository
-git clone https://github.com/your-username/devops-docs.git
+git clone https://github.com/arguxx/devops-docs.git
 cd devops-docs
 
 # Set up Python environment
