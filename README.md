@@ -1,6 +1,9 @@
 # DevOps Documentation Hub
 
-A comprehensive documentation website for DevOps practices, tools, and workflows built with MkDocs Material.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation Status](https://img.shields.io/badge/docs-live-brightgreen.svg)](https://arguxx.github.io/devops-docs/)
+
+A comprehensive, open-source documentation website for DevOps practices, tools, and workflows built with MkDocs Material.
 
 ## 🚀 Quick Start
 
@@ -14,7 +17,7 @@ A comprehensive documentation website for DevOps practices, tools, and workflows
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/devops-docs.git
+    git clone https://github.com/arguxx/devops-docs.git
     cd devops-docs
     ```
 
@@ -105,7 +108,7 @@ echo "Setting up environment..."
 
 #### Tabbed Content
 
-````markdown
+```markdown
 === "macOS"
 `bash
     brew install docker
@@ -115,7 +118,7 @@ echo "Setting up environment..."
 `bash
     sudo apt install docker.io
     `
-````
+```
 
 #### Mermaid Diagrams
 
@@ -259,6 +262,15 @@ extra:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### MIT License Summary
+
+-   ✅ **Commercial use** - Use this project in commercial applications
+-   ✅ **Modification** - Modify and adapt the code to your needs
+-   ✅ **Distribution** - Share and distribute the project
+-   ✅ **Private use** - Use privately without restrictions
+-   ⚠️ **Attribution required** - Include copyright notice and license
+-   ❌ **No warranty** - Project comes without any warranty
 
 ## 🙏 Acknowledgments
 
