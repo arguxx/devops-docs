@@ -12,7 +12,7 @@ Fast, practical tutorials to solve specific DevOps challenges. Each tutorial tak
 
     Quick Docker solutions and tips for common scenarios.
 
-    [View Docker Tutorials](#docker-tutorials)
+    <!-- [View Docker Tutorials](#docker-tutorials) -->
 
 -   ☸️ **Kubernetes**
 
@@ -20,7 +20,7 @@ Fast, practical tutorials to solve specific DevOps challenges. Each tutorial tak
 
     Fast K8s guides for deployment and troubleshooting.
 
-    [View K8s Tutorials](#kubernetes-tutorials)
+    <!-- [View K8s Tutorials](#kubernetes-tutorials) -->
 
 -   🔄 **CI/CD**
 
@@ -28,7 +28,7 @@ Fast, practical tutorials to solve specific DevOps challenges. Each tutorial tak
 
     Pipeline setups, automation scripts, and deployment guides.
 
-    [View CI/CD Tutorials](#cicd-tutorials)
+    <!-- [View CI/CD Tutorials](#cicd-tutorials) -->
 
 -   🔧 **Tools & Setup**
 
@@ -36,7 +36,7 @@ Fast, practical tutorials to solve specific DevOps challenges. Each tutorial tak
 
     Installation guides and tool configurations.
 
-    [View Setup Tutorials](#setup-tutorials)
+    <!-- [View Setup Tutorials](#setup-tutorials) -->
 
 </div>
 
@@ -44,35 +44,35 @@ Fast, practical tutorials to solve specific DevOps challenges. Each tutorial tak
 
 | Tutorial                                                       | Duration | Difficulty   |
 | -------------------------------------------------------------- | -------- | ------------ |
-| [Install Docker on Ubuntu](docker/install-docker-ubuntu.md)    | 5 min    | Beginner     |
-| [Multi-stage Docker Builds](docker/multistage-builds.md)       | 10 min   | Intermediate |
-| [Docker Compose for Development](docker/docker-compose-dev.md) | 15 min   | Beginner     |
-| [Docker Security Best Practices](docker/security-basics.md)    | 12 min   | Intermediate |
+<!-- | [Install Docker on Ubuntu](docker/install-docker-ubuntu.md)    | 5 min    | Beginner     | -->
+<!-- | [Multi-stage Docker Builds](docker/multistage-builds.md)       | 10 min   | Intermediate | -->
+<!-- | [Docker Compose for Development](docker/docker-compose-dev.md) | 15 min   | Beginner     | -->
+<!-- | [Docker Security Best Practices](docker/security-basics.md)    | 12 min   | Intermediate | -->
 
 ## ☸️ Kubernetes Tutorials
 
 | Tutorial                                                           | Duration | Difficulty   |
 | ------------------------------------------------------------------ | -------- | ------------ |
-| [Install Kubernetes with Minikube](kubernetes/install-minikube.md) | 8 min    | Beginner     |
-| [Deploy Your First App](kubernetes/deploy-first-app.md)            | 12 min   | Beginner     |
-| [Set up Ingress Controller](kubernetes/setup-ingress.md)           | 15 min   | Intermediate |
-| [Kubernetes Secrets Management](kubernetes/secrets-management.md)  | 10 min   | Intermediate |
+<!-- | [Install Kubernetes with Minikube](kubernetes/install-minikube.md) | 8 min    | Beginner     | -->
+<!-- | [Deploy Your First App](kubernetes/deploy-first-app.md)            | 12 min   | Beginner     | -->
+<!-- | [Set up Ingress Controller](kubernetes/setup-ingress.md)           | 15 min   | Intermediate | -->
+<!-- | [Kubernetes Secrets Management](kubernetes/secrets-management.md)  | 10 min   | Intermediate | -->
 
 ## 🔄 CI/CD Tutorials
 
 | Tutorial                                                   | Duration | Difficulty   |
 | ---------------------------------------------------------- | -------- | ------------ |
-| [GitHub Actions for Docker](cicd/github-actions-docker.md) | 10 min   | Intermediate |
-| [Jenkins Pipeline Basics](cicd/jenkins-pipeline.md)        | 15 min   | Intermediate |
-| [Deploy to Cloud with Terraform](cicd/terraform-deploy.md) | 20 min   | Advanced     |
+<!-- | [GitHub Actions for Docker](cicd/github-actions-docker.md) | 10 min   | Intermediate | -->
+<!-- | [Jenkins Pipeline Basics](cicd/jenkins-pipeline.md)        | 15 min   | Intermediate | -->
+<!-- | [Deploy to Cloud with Terraform](cicd/terraform-deploy.md) | 20 min   | Advanced     | -->
 
 ## 🔧 Setup Tutorials
 
 | Tutorial                                             | Duration | Difficulty |
 | ---------------------------------------------------- | -------- | ---------- |
-| [VS Code DevOps Extensions](setup/vscode-devops.md)  | 5 min    | Beginner   |
-| [Terminal Setup for DevOps](setup/terminal-setup.md) | 8 min    | Beginner   |
-| [Git Configuration](setup/git-config.md)             | 5 min    | Beginner   |
+<!-- | [VS Code DevOps Extensions](setup/vscode-devops.md)  | 5 min    | Beginner   | -->
+<!-- | [Terminal Setup for DevOps](setup/terminal-setup.md) | 8 min    | Beginner   | -->
+<!-- | [Git Configuration](setup/git-config.md)             | 5 min    | Beginner   | -->
 
 ## 📝 Tutorial Format
 

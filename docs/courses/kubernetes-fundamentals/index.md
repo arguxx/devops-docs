@@ -21,38 +21,38 @@ Master Kubernetes from the ground up! This comprehensive course takes you from z
 
 ### Module 1: Introduction & Setup
 
--   [ ] 1.1 [What is Kubernetes?](01-introduction/what-is-kubernetes.md)
--   [ ] 1.2 [Architecture Overview](01-introduction/architecture.md)
--   [ ] 1.3 [Setting up Local Environment](01-introduction/setup.md)
--   [ ] 1.4 [Your First Pod](01-introduction/first-pod.md)
+<!-- -   [ ] 1.1 [What is Kubernetes?](01-introduction/what-is-kubernetes.md) -->
+<!-- -   [ ] 1.2 [Architecture Overview](01-introduction/architecture.md) -->
+<!-- -   [ ] 1.3 [Setting up Local Environment](01-introduction/setup.md) -->
+<!-- -   [ ] 1.4 [Your First Pod](01-introduction/first-pod.md) -->
 
 ### Module 2: Core Concepts
 
--   [ ] 2.1 [Pods Deep Dive](02-core-concepts/pods.md)
--   [ ] 2.2 [Services & Networking](02-core-concepts/services.md)
--   [ ] 2.3 [Deployments & ReplicaSets](02-core-concepts/deployments.md)
--   [ ] 2.4 [Namespaces](02-core-concepts/namespaces.md)
+<!-- -   [ ] 2.1 [Pods Deep Dive](02-core-concepts/pods.md) -->
+<!-- -   [ ] 2.2 [Services & Networking](02-core-concepts/services.md) -->
+<!-- -   [ ] 2.3 [Deployments & ReplicaSets](02-core-concepts/deployments.md) -->
+<!-- -   [ ] 2.4 [Namespaces](02-core-concepts/namespaces.md) -->
 
 ### Module 3: Configuration & Storage
 
--   [ ] 3.1 [ConfigMaps](03-config-storage/configmaps.md)
--   [ ] 3.2 [Secrets Management](03-config-storage/secrets.md)
--   [ ] 3.3 [Persistent Volumes](03-config-storage/persistent-volumes.md)
--   [ ] 3.4 [Storage Classes](03-config-storage/storage-classes.md)
+<!-- -   [ ] 3.1 [ConfigMaps](03-config-storage/configmaps.md) -->
+<!-- -   [ ] 3.2 [Secrets Management](03-config-storage/secrets.md) -->
+<!-- -   [ ] 3.3 [Persistent Volumes](03-config-storage/persistent-volumes.md) -->
+<!-- -   [ ] 3.4 [Storage Classes](03-config-storage/storage-classes.md) -->
 
 ### Module 4: Advanced Topics
 
--   [ ] 4.1 [Ingress Controllers](04-advanced/ingress.md)
--   [ ] 4.2 [RBAC & Security](04-advanced/rbac.md)
--   [ ] 4.3 [Monitoring & Logging](04-advanced/monitoring.md)
--   [ ] 4.4 [Troubleshooting](04-advanced/troubleshooting.md)
+<!-- -   [ ] 4.1 [Ingress Controllers](04-advanced/ingress.md) -->
+<!-- -   [ ] 4.2 [RBAC & Security](04-advanced/rbac.md) -->
+<!-- -   [ ] 4.3 [Monitoring & Logging](04-advanced/monitoring.md) -->
+<!-- -   [ ] 4.4 [Troubleshooting](04-advanced/troubleshooting.md) -->
 
 ### Module 5: Production Deployment
 
--   [ ] 5.1 [Cluster Management](05-production/cluster-management.md)
--   [ ] 5.2 [CI/CD Integration](05-production/cicd.md)
--   [ ] 5.3 [Best Practices](05-production/best-practices.md)
--   [ ] 5.4 [Final Project](05-production/final-project.md)
+<!-- -   [ ] 5.1 [Cluster Management](05-production/cluster-management.md) -->
+<!-- -   [ ] 5.2 [CI/CD Integration](05-production/cicd.md) -->
+<!-- -   [ ] 5.3 [Best Practices](05-production/best-practices.md) -->
+<!-- -   [ ] 5.4 [Final Project](05-production/final-project.md) -->
 
 ## 🛠️ Prerequisites Check
 
@@ -107,7 +107,7 @@ After completing this course, you'll be able to:
 ---
 
 !!! success "Ready to Start?"
-Let's begin with [What is Kubernetes?](01-introduction/what-is-kubernetes.md) and build your K8s expertise step by step!
+<!-- Let's begin with [What is Kubernetes?](01-introduction/what-is-kubernetes.md) and build your K8s expertise step by step! -->
 
 !!! info "Estimated Time Commitment" - **Module 1:** 2 hours - **Module 2:** 3 hours  
  - **Module 3:** 3 hours - **Module 4:** 3 hours - **Module 5:** 1 hour - **Total:** ~12 hours
