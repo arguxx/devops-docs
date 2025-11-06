@@ -255,10 +255,10 @@ docker pull hello-world
 
 Now that you have Kubernetes running locally:
 
-1. **Learn the basics** - Try our [Kubernetes Fundamentals Course](../../courses/kubernetes-fundamentals/index.md)
-2. **Deploy real apps** - Follow [Deploy Your First App](deploy-first-app.md) tutorial
-3. **Explore addons** - Try [Setting up Ingress Controller](setup-ingress.md)
-4. **Production ready** - Learn about [managed Kubernetes services](../../courses/kubernetes-fundamentals/05-production/cluster-management.md)
+<!-- 1. **Learn the basics** - Try our [Kubernetes Fundamentals Course](../../courses/kubernetes-fundamentals/index.md) -->
+<!-- 2. **Deploy real apps** - Follow [Deploy Your First App](deploy-first-app.md) tutorial -->
+<!-- 3. **Explore addons** - Try [Setting up Ingress Controller](setup-ingress.md) -->
+<!-- 4. **Production ready** - Learn about [managed Kubernetes services](../../courses/kubernetes-fundamentals/05-production/cluster-management.md) -->
 
 ---
 
