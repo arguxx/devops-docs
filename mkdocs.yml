@@ -11,15 +11,16 @@ edit_uri: edit/main/docs/
 # Navigation
 nav:
     - Home: index.md
-    - Getting Started:
-          - Quick Start: getting-started/quick-start.md
-          - Installation: getting-started/installation.md
-    - DevOps Guides:
-          - CI/CD Pipelines: guides/cicd.md
-    - Tools & Technologies:
-          - Docker: tools/docker.md
-    - Best Practices: best-practices.md
-    - Troubleshooting: troubleshooting.md
+    - Free Courses:
+          - Course Catalog: courses/index.md
+          - Kubernetes Fundamentals: courses/kubernetes-fundamentals/index.md
+          - Docker Mastery: courses/docker-mastery/index.md
+    - Quick Tutorials:
+          - Tutorial Index: tutorials/index.md
+          - Install Minikube: tutorials/kubernetes/install-minikube.md
+    - Resources:
+          - Best Practices: best-practices.md
+          - Troubleshooting: troubleshooting.md
 
 # Theme
 theme:
@@ -57,10 +58,11 @@ theme:
 
 # Plugins
 plugins:
-    - search
+    - search:
+          lang: en
     - git-revision-date-localized:
           enable_creation_date: true
-          fallback_to_build_date: true
+          type: timeago
     - minify:
           minify_html: true
 
@@ -89,6 +91,9 @@ extra:
           link: https://github.com/arguxx
         - icon: fontawesome/brands/docker
           link: https://hub.docker.com/u/your-username
+        - icon: fontawesome/solid/heart
+          link: https://saweria.co/sawerargu
+          name: Support via Saweria
     analytics:
         provider: google
         property: G-XXXXXXXXXX # Replace with your Google Analytics ID

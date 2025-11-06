@@ -1,0 +1,48 @@
+# Development configuration for MkDocs with enhanced hot reload
+# Inherits from mkdocs.yml and adds development-specific settings
+
+INHERIT: mkdocs.yml
+
+# Development server settings
+dev_addr: "127.0.0.1:8000"
+
+# Enhanced plugins for development
+plugins:
+    - search:
+          lang: en
+    # Disabled for faster development builds
+    # - git-revision-date-localized:
+    #       enable_creation_date: true
+    #       type: timeago
+    # - minify:
+    #       minify_html: true
+
+# Watch additional directories for changes
+watch:
+    - docs/
+    - mkdocs.yml
+    - docs/overrides/
+    - docs/stylesheets/
+
+# Development-specific settings
+strict: false # Don't fail on warnings during development
+use_directory_urls: true
+
+# Faster builds in development
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - attr_list
+    - md_in_html
+    - tables
+    - footnotes
+    - pymdownx.emoji

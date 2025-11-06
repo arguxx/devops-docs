@@ -3,6 +3,3 @@ Allow: /
 
 # Sitemap
 Sitemap: https://arguxx.github.io/devops-docs/sitemap.xml
-
-# Block admin interface from search engines
-Disallow: /admin/
