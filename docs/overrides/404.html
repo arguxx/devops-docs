@@ -1,0 +1,319 @@
+{% extends "base.html" %} {% block content %}
+<div class="md-content" data-md-component="content">
+    <article class="md-content__inner md-typeset">
+        <!-- 404 Header Section -->
+        <div style="text-align: center; padding: 2rem 0">
+            <div
+                style="
+                    font-size: 8rem;
+                    font-weight: bold;
+                    color: var(--md-primary-fg-color);
+                    opacity: 0.3;
+                    line-height: 1;
+                "
+            >
+                404
+            </div>
+            <h1
+                style="
+                    margin: 0;
+                    font-size: 2.5rem;
+                    color: var(--md-default-fg-color);
+                "
+            >
+                🚀 Oops! Page Not Found
+            </h1>
+            <p
+                style="
+                    font-size: 1.2rem;
+                    color: var(--md-default-fg-color--light);
+                    margin-top: 1rem;
+                "
+            >
+                Looks like this DevOps resource has been containerized to
+                another location!
+            </p>
+        </div>
+
+        <!-- Search Section -->
+        <div style="max-width: 600px; margin: 2rem auto; text-align: center">
+            <div class="md-search" data-md-component="search">
+                <label class="md-search__label" for="__search">
+                    <div class="md-search__icon md-icon"></div>
+                </label>
+                <input
+                    class="md-search__input"
+                    name="__search"
+                    placeholder="🔍 Search for DevOps content..."
+                    aria-label="Search"
+                    autocomplete="off"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    data-md-component="search-query"
+                    required
+                />
+                <label class="md-search__label" for="__search">
+                    <div class="md-search__icon md-icon"></div>
+                </label>
+                <div class="md-search__output">
+                    <div class="md-search__scrollwrap" data-md-scrollfix>
+                        <div
+                            class="md-search-result"
+                            data-md-component="search-result"
+                        >
+                            <div class="md-search-result__meta">
+                                Initializing search
+                            </div>
+                            <ol
+                                class="md-search-result__list"
+                                role="presentation"
+                            ></ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Navigation Cards -->
+        <div style="max-width: 800px; margin: 3rem auto">
+            <h2 style="text-align: center; margin-bottom: 2rem">
+                🎯 Popular Destinations
+            </h2>
+
+            <div class="grid cards" markdown>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>🎓 Free Courses</h3>
+                        <p>
+                            Structured learning paths for Docker, Kubernetes,
+                            and DevOps mastery.
+                        </p>
+                        <a
+                            href="{{ config.site_url }}courses/"
+                            class="md-button md-button--primary"
+                        >
+                            Browse Courses
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3>⚡ Quick Tutorials</h3>
+                        <p>
+                            Fast, practical solutions for specific DevOps
+                            challenges.
+                        </p>
+                        <a
+                            href="{{ config.site_url }}tutorials/"
+                            class="md-button md-button--primary"
+                        >
+                            View Tutorials
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3>📚 Best Practices</h3>
+                        <p>
+                            Proven methodologies and strategic guidance for
+                            DevOps success.
+                        </p>
+                        <a
+                            href="{{ config.site_url }}best-practices/"
+                            class="md-button md-button--primary"
+                        >
+                            Read Best Practices
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3>🛠️ Troubleshooting</h3>
+                        <p>
+                            Common issues and solutions to resolve DevOps
+                            problems quickly.
+                        </p>
+                        <a
+                            href="{{ config.site_url }}troubleshooting/"
+                            class="md-button md-button--primary"
+                        >
+                            Get Help
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fun DevOps Messages -->
+        <div
+            style="
+                max-width: 600px;
+                margin: 3rem auto;
+                text-align: center;
+                padding: 2rem;
+                background: var(--md-code-bg-color);
+                border-radius: 0.5rem;
+            "
+        >
+            <h3>🐳 DevOps Wisdom</h3>
+            <div
+                id="devops-quote"
+                style="
+                    font-style: italic;
+                    color: var(--md-default-fg-color--light);
+                    margin: 1rem 0;
+                "
+            >
+                "It works on my machine!" - Every developer before containers
+            </div>
+            <button
+                onclick="newQuote()"
+                class="md-button"
+                style="margin-top: 1rem"
+            >
+                Get New Quote
+            </button>
+        </div>
+
+        <!-- Help Section -->
+        <div style="max-width: 600px; margin: 3rem auto; text-align: center">
+            <h3>🆘 Still Can't Find What You Need?</h3>
+            <div
+                style="
+                    display: flex;
+                    gap: 1rem;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    margin-top: 1.5rem;
+                "
+            >
+                <a
+                    href="{{ config.site_url }}"
+                    class="md-button md-button--primary"
+                >
+                    🏠 Go Home
+                </a>
+                <a
+                    href="{{ config.repo_url }}/issues"
+                    class="md-button"
+                    target="_blank"
+                >
+                    🐛 Report Issue
+                </a>
+                <a
+                    href="{{ config.repo_url }}"
+                    class="md-button"
+                    target="_blank"
+                >
+                    📖 View Source
+                </a>
+            </div>
+        </div>
+
+        <!-- Navigation Help -->
+        <div
+            style="
+                max-width: 600px;
+                margin: 2rem auto;
+                text-align: center;
+                padding-top: 2rem;
+                border-top: 1px solid var(--md-default-fg-color--lightest);
+            "
+        >
+            <p
+                style="
+                    color: var(--md-default-fg-color--light);
+                    font-size: 0.9rem;
+                "
+            >
+                💡 Tip: Use the search function above or navigation menu to find
+                what you need
+            </p>
+        </div>
+    </article>
+</div>
+
+<script>
+    // DevOps quotes for fun
+    const devopsQuotes = [
+        '"It works on my machine!" - Every developer before containers',
+        '"Infrastructure as Code: Because clicking is not scalable"',
+        '"There are only two hard things in Computer Science: cache invalidation and naming containers"',
+        "\"Docker: Making 'it works on my machine' work everywhere since 2013\"",
+        '"Kubernetes: Because managing one container is too easy"',
+        '"CI/CD: Continuous Integration, Continuous Deployment, Continuous Debugging"',
+        '"DevOps: Breaking down silos since... well, we\'re still working on it"',
+        '"Monitoring: The art of knowing exactly when everything breaks"',
+        '"Automation: Because humans are the weakest link in the deployment chain"',
+        '"Cloud Native: Where your code lives everywhere and nowhere at once"',
+    ];
+
+    function newQuote() {
+        const quoteElement = document.getElementById("devops-quote");
+        const randomQuote =
+            devopsQuotes[Math.floor(Math.random() * devopsQuotes.length)];
+        quoteElement.style.opacity = "0";
+
+        setTimeout(() => {
+            quoteElement.textContent = randomQuote;
+            quoteElement.style.opacity = "1";
+        }, 200);
+    }
+
+    // Initialize with a random quote on load
+    document.addEventListener("DOMContentLoaded", function () {
+        newQuote();
+    });
+</script>
+
+<style>
+    /* Custom styles for 404 page */
+    .card {
+        background: var(--md-default-bg-color);
+        border: 1px solid var(--md-default-fg-color--lightest);
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin: 1rem;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-content h3 {
+        margin-top: 0;
+        color: var(--md-primary-fg-color);
+    }
+
+    .card-content p {
+        color: var(--md-default-fg-color--light);
+        margin: 1rem 0;
+    }
+
+    #devops-quote {
+        transition: opacity 0.3s ease;
+        min-height: 2rem;
+    }
+
+    /* Responsive grid */
+    @media (min-width: 768px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    }
+
+    /* Dark mode adjustments */
+    [data-md-color-scheme="slate"] .card {
+        background: var(--md-code-bg-color);
+        border-color: var(--md-default-fg-color--lightest);
+    }
+</style>
+{% endblock %}

@@ -1,72 +1,78 @@
 # DevOps Documentation Hub# DevOps Documentation Hub
 
-Welcome to your comprehensive DevOps learning platform! From structured courses to quick tutorials, we've got everything you need to master DevOps.Welcome to our comprehensive DevOps documentation! This site contains everything you need to know about our DevOps practices, tools, and workflows.
+Welcome to our comprehensive DevOps documentation! This site contains everything you need to know about our DevOps practices, tools, and workflows.
 
-## 🎓 Learn DevOps## � Available Documentation
+## � About This Documentation
+Proven methodologies and strategic guidance for successful DevOps implementations.This is a clean, maintainable documentation site built with MkDocs and Material theme. It's designed for:
 
-<div class="grid cards" markdown><div class="grid cards" markdown>
+<div class="grid cards" markdown>
 
--   🎓 **Free Courses**- � **Best Practices**
+-   🎓 **Free Courses**
 
-    --- \*\*\*
+    ***
 
     Comprehensive, structured learning paths. Master Docker, Kubernetes, and DevOps practices step-by-step. Comprehensive DevOps best practices and proven methodologies for successful implementations.
 
-    [🚀 Browse Courses](courses/index.md) [➡️ View Best Practices](best-practices.md)
+    ***
 
--   ⚡ **Quick Tutorials**- 🔧 **Troubleshooting**
+    [🚀 Browse Courses](courses/index.md)
 
-    --- \*\*\*
+-   ⚡ **Quick Tutorials**
+
+    ***
 
     Fast, practical solutions for specific problems. Get things done in 5-15 minutes. Common issues and solutions to help you quickly resolve DevOps-related problems.
 
-    [🔧 View Tutorials](tutorials/index.md) [➡️ Troubleshooting Guide](troubleshooting.md)
+    ***
 
--   📚 **Best Practices**</div>
+    [🔧 View Tutorials](tutorials/index.md)
 
-    ---## � About This Documentation
+-   🔧 **Troubleshooting**
 
-    Proven methodologies and strategic guidance for successful DevOps implementations.This is a clean, maintainable documentation site built with MkDocs and Material theme. It's designed for:
+    ***
+    
+    Common issues and their solutions. Quickly resolve DevOps problems.
 
-    [📖 Read Best Practices](best-practices.md)- **Easy Access**: Quick navigation to find what you need
+    ***
 
--   **Easy Maintenance**: Simple markdown files for content updates
+    [➡️ Troubleshooting Guide](troubleshooting.md)
 
--   🛠️ **Troubleshooting**- **Easy Expansion**: Add new content by creating markdown files
+-   🛠️ **Collaboration**
 
-    ---## 🤝 Contributing
+    ***
 
-    Common issues and their solutions. Quickly resolve DevOps problems.We welcome contributions! You can:
+    -   Edit existing content
+    -   Submit feedback and suggestions 
+    -   Report issues or improvements
 
-    [🔍 Get Help](troubleshooting.md)- Add new documentation pages
+    ***
 
--   Edit existing content
+    [➡️ Collaboration](troubleshooting.md)
 
-</div>-   Submit feedback and suggestions
 
--   Report issues or improvements
+</div>
 
-## 🚀 Popular Content
 
-## 🎯 Getting Started
+<!-- ## 🚀 Popular Content
+
+## 🎯 Getting Started -->
 
 ### 🏆 Most Popular Courses
 
-1. **[Kubernetes Fundamentals](courses/kubernetes-fundamentals/index.md)** - Complete K8s mastery1. **Browse**: Start with [Best Practices](best-practices.md) for proven methodologies
+1. **[Kubernetes Fundamentals](courses/kubernetes-fundamentals/index.md)** - Complete K8s mastery
 
-2. **[Docker Mastery](courses/docker-mastery/index.md)** - Container expertise2. **Troubleshoot**: Check [Troubleshooting](troubleshooting.md) for common solutions
+2. **[Docker Mastery](courses/docker-mastery/index.md)** - Container expertise
 
-3. **Contribute**: Add your own knowledge to help the team
 
 ### ⚡ Quick Wins
 
-1. **[Install Kubernetes with Minikube](tutorials/kubernetes/install-minikube.md)** - 8 min setup---
+1. **[Install Kubernetes with Minikube](tutorials/kubernetes/install-minikube.md)** - 8 min setup
 
 2. **Docker Security Basics** - Essential security tips
 
 !!! tip "Pro Tip"
 
-## 📈 Learning PathsUse the search functionality (Ctrl+K or Cmd+K) to quickly find specific topics!
+## 📈 Learning Paths
 
 ### 🐣 **New to DevOps?**
 
@@ -107,7 +113,14 @@ Help us grow this platform! You can:
 
 ---
 
-!!! tip "Learning Tips" - **Set aside time** - Consistent practice beats intense sessions - **Hands-on practice** - Don't just read, do the labs! - **Join discussions** - Learn from the community - **Use search** - Press Ctrl+K (or Cmd+K) to find specific topics
+!!! tip "Learning Tips" 
+- **Set aside time** 
+- Consistent practice beats intense sessions 
+- **Hands-on practice** 
+- Don't just read, do the labs! 
+- **Join discussions** 
+- Learn from the community 
+- **Use search** - Press Ctrl+K (or Cmd+K) to find specific topics
 
 !!! question "Where to Start?"
 **Completely new?** → [Docker Mastery Course](courses/docker-mastery/index.md)  
