@@ -19,7 +19,7 @@ nav:
     - Learning Courses:
           - Course Catalog: courses/index.md
       #     - Kubernetes Fundamentals: courses/kubernetes-fundamentals/index.md
-      #     - Docker Mastery: courses/docker-mastery/index.md
+          - Docker Mastery: courses/docker-mastery/index.md
     - Articles:
           - Tutorial: tutorials/index.md
     #           - Install Minikube: tutorials/kubernetes/install-minikube.md

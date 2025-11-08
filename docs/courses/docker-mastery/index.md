@@ -21,10 +21,11 @@ Master Docker from the ground up! This comprehensive course takes you from zero 
 
 ### Module 1: Docker Basics
 
--   [ ] 1.1 What is Docker?
--   [ ] 1.2 Installation and Setup
+<!-- -   [ ] 1.1 Apa itu Docker? -->
+-   [ ] 1.1 [Apa itu Docker?](module-1/1.1-apa-itu-docker.md)
+-   [ ] 1.2 Setup dan Installasi
 -   [ ] 1.3 Your First Container
--   [ ] 1.4 Understanding Images
+-   [ ] 1.4 Apa itu Image
 
 ### Module 2: Working with Containers
 
@@ -35,17 +36,17 @@ Master Docker from the ground up! This comprehensive course takes you from zero 
 
 ### Module 3: Building Images
 
--   [ ] 3.1 Dockerfile Fundamentals
+-   [ ] 3.1 Dasar-dasar Docker
 -   [ ] 3.2 Multi-stage Builds
 -   [ ] 3.3 Image Optimization
 -   [ ] 3.4 Best Practices
 
 ### Module 4: Docker Compose
 
--   [ ] 4.1 Introduction to Compose
+-   [ ] 4.1 Apa itu Docker Compose
 -   [ ] 4.2 Multi-container Applications
--   [ ] 4.3 Development Workflows
--   [ ] 4.4 Production Considerations
+-   [ ] 4.3 Alur Pengembangan
+-   [ ] 4.4 Pertimbangan untuk Production
 
 ### Module 5: Production & Security
 
