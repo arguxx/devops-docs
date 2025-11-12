@@ -23,7 +23,7 @@ Master Docker from the ground up! This comprehensive course takes you from zero 
 
 <!-- -   [ ] 1.1 Apa itu Docker? -->
 -   [ ] 1.1 [Apa itu Docker?](module-1/1.1-apa-itu-docker.md)
--   [ ] 1.2 Setup dan Installasi
+-   [ ] 1.2 [Setup dan Installasi](module-1/1.2-setup-dan-instalasi.md)
 -   [ ] 1.3 Your First Container
 -   [ ] 1.4 Apa itu Image
 
