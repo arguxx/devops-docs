@@ -160,20 +160,15 @@ sudo sysctl --system
 
 Install and configure containerd, runc, and CNI plugins:
 
+Installing CNI plugins, Download the `cni-plugins-<OS>-<ARCH>-<VERSION>.tgz` archive from [github releases](https://github.com/containernetworking/plugins/releases) , verify its `sha256sum`, and extract it under `/opt/cni/bin`:
+
+
 ```bash
 # Install containerd and runc
 sudo apt install -y containerd runc
 
-# Install CNI plugins
-CNI_VERSION="v1.5.1"
-CNI_ARCH="amd64"
-if [ "$(uname -m)" = "aarch64" ]; then CNI_ARCH="arm64"; fi
-
-sudo mkdir -p /opt/cni/bin
-curl -L "https://github.com/containernetworking/plugins/releases/download/${CNI_VERSION}/cni-plugins-linux-${CNI_ARCH}-${CNI_VERSION}.tgz" | sudo tar -C /opt/cni/bin -xz
-
-# Verify CNI plugins installation
-ls -la /opt/cni/bin/
+mkdir -p /opt/cni/bin && \
+tar Cxzvf /opt/cni/bin cni-plugin-version.tgz
 
 # Create default containerd configuration
 sudo mkdir -p /etc/containerd
@@ -460,7 +455,7 @@ kubectl get svc hubble-ui -n kube-system
 !!! tip "Hubble CLI"
 Install Hubble CLI for command-line network observability:
 
-````bash
+```bash
 HUBBLE_VERSION=$(curl -s https://raw.githubusercontent.com/cilium/hubble/master/stable.txt)
     HUBBLE_ARCH=amd64
     if [ "$(uname -m)" = "aarch64" ]; then HUBBLE_ARCH=arm64; fi
@@ -475,7 +470,7 @@ rm hubble-linux-${HUBBLE_ARCH}.tar.gz{,.sha256sum}
     # Use Hubble CLI
     hubble status
     hubble observe
-    ```
+```
 
 ## 🔒 Security Best Practices
 
@@ -492,7 +487,7 @@ apt list --upgradable
 EOF
 
 sudo chmod +x /usr/local/bin/k8s-update.sh
-````
+```
 
 ### 2. Enable Audit Logging
 
@@ -643,9 +638,19 @@ After your cluster is running:
 
 ## 💡 Tips for Production
 
-!!! warning "Production Considerations" - Use a multi-node cluster for high availability - Implement proper backup and disaster recovery - Set up monitoring and alerting - Use infrastructure as code (Terraform, Ansible) - Implement GitOps workflows - Regular security audits and updates
+!!! warning "Production Considerations" 
+- Use a multi-node cluster for high availability 
+- Implement proper backup and disaster recovery 
+- Set up monitoring and alerting 
+- Use infrastructure as code (Terraform, Ansible) 
+- Implement GitOps workflows 
+- Regular security audits and updates
 
-!!! tip "Resource Management" - Set resource requests and limits for all pods - Use namespace quotas to prevent resource exhaustion - Monitor cluster capacity regularly - Plan for scaling before you need it
+!!! tip "Resource Management" 
+- Set resource requests and limits for all pods 
+- Use namespace quotas to prevent resource exhaustion 
+- Monitor cluster capacity regularly 
+- Plan for scaling before you need it
 
 ---
 
