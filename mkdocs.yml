@@ -18,11 +18,13 @@ nav:
     - Home: index.md
     - Learning Courses:
           - Course Catalog: courses/index.md
-      #     - Kubernetes Fundamentals: courses/kubernetes-fundamentals/index.md
+          #     - Kubernetes Fundamentals: courses/kubernetes-fundamentals/index.md
           - Docker Mastery: courses/docker-mastery/index.md
     - Articles:
           - Tutorial: tutorials/index.md
-    #           - Install Minikube: tutorials/kubernetes/install-minikube.md
+          - Kubernetes:
+                - Install Standalone K8s on Ubuntu: tutorials/kubernetes/install-standalone-kubernetes-ubuntu.md
+                - Install Minikube: tutorials/kubernetes/install-minikube.md
     #     - Resources:
     #           - Best Practices: best-practices.md
     #           - Troubleshooting: troubleshooting.md
@@ -103,7 +105,7 @@ extra:
           name: Support via Saweria
     analytics:
         provider: google
-        property: G-W1YQHQB7HL 
+        property: G-W1YQHQB7HL
     version:
         provider: mike
         default: latest

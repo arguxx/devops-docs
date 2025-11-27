@@ -1,8 +1,8 @@
-# DevOps Documentation Hub# DevOps Documentation Hub
+# DevOps Documentation Hub
 
 Welcome to our comprehensive DevOps documentation! This site contains everything you need to know about our DevOps practices, tools, and workflows.
 
-## � About This Documentation
+##  About This Documentation
 Proven methodologies and strategic guidance for successful DevOps implementations.This is a clean, maintainable documentation site built with MkDocs and Material theme. It's designed for:
 
 <div class="grid cards" markdown>
