@@ -615,7 +615,7 @@ sudo iptables -L -n -v
 kubectl run -it --rm debug --image=busybox --restart=Never -- nslookup kubernetes.default
 ```
 
-## 🔗 Next Steps
+<!-- ## 🔗 Next Steps
 
 After your cluster is running:
 
@@ -623,7 +623,7 @@ After your cluster is running:
 2. **[Set Up Ingress](../kubernetes/setup-ingress.md)** - Configure ingress controller for external access
 3. **[Persistent Storage](../kubernetes/persistent-storage.md)** - Configure persistent volumes
 4. **[Monitoring Setup](../kubernetes/prometheus-setup.md)** - Install Prometheus and Grafana
-5. **[Backup Strategy](../kubernetes/backup-restore.md)** - Set up etcd backups
+5. **[Backup Strategy](../kubernetes/backup-restore.md)** - Set up etcd backups -->
 
 ## 📚 Additional Resources
 
